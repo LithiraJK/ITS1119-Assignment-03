@@ -1,11 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case-01</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        position: absolute;
+      }
+
+      .main-container {
+      }
+
+      #container-01 {
+        background-color: red;
+        width: 50vw;
+        height: 50vh;
+        top: 0;
+        left: 0;
+      }
+
+      #container-02 {
+        background-color: green;
+        width: 50vw;
+        height: 50vh;
+        top: 0;
+        right: 0;
+      }
+
+      #container-03 {
+        background-color: yellow;
+        width: 50vw;
+        height: 50vh;
+        bottom: 0;
+        left: 0;
+      }
+
+      #container-04 {
+        background-color: pink;
+        width: 50vw;
+        height: 50vh;
+        bottom: 0;
+        right: 0;
+      }
+
+      #middle-box {
+        background-color: #fff;
+        width: 20vw;
+        height: 20vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      #middle-circle {
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+
+      #mid-circle {
+        background-color: #fff;
+        width: 20vw;
+        height: 20vw;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+
+      #mid-box {
+        background-color: red;
+        width: 50%;
+        height: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      #top-left {
+        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        top: 0;
+        left: 0;
+        border-bottom-right-radius: 100%;
+      }
+
+      #top-right {
+        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        top: 0;
+        right: 0;
+        border-bottom-left-radius: 100%;
+      }
+
+      #bottom-left{
+        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        bottom: 0;
+        left: 0;
+        border-top-right-radius: 100%;
+      }
+
+      #bottom-right{
+        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        bottom: 0;
+        right: 0;
+        border-top-left-radius: 100%;
+      }
+
+      #top-mid{
+        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+      }
+      #bottom-mid{
+        background-color: #fff;
+        width: 15vw;
+        height: 15vw;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        border-radius: 50%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main class="main-container">
+
+      <div class="container" id="container-01">
+        <div class="container" id="mid-circle">
+          <div class="container" id="mid-box"></div>
+        </div>
+      </div>
+
+      <div class="container" id="container-02">
+        <div class="container" id="mid-circle">
+            <div class="container" id="mid-box"></div>
+          </div>
+      </div>
+
+      <div class="container" id="container-03">
+        <div class="container" id="mid-circle">
+            <div class="container" id="mid-box"></div>
+          </div>
+      </div>
+
+      <div class="container" id="container-04">
+        <div class="container" id="mid-circle">
+            <div class="container" id="mid-box"></div>
+          </div>
+      </div>
+
+      <div class="container" id="middle-box">
+        <div class="container" id="middle-circle"></div>
+      </div>
+
+      <div class="container" id="top-left"></div>
+      <div class="container" id="top-right"></div>
+      <div class="container" id="bottom-left"></div>
+      <div class="container" id="bottom-right"></div>
+      <div class="container" id="top-mid"></div>
+      <div class="container" id="bottom-mid"></div>
+
+    </main>
+  </body>
 </html>
