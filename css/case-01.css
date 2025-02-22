@@ -1,0 +1,154 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: absolute;
+}
+
+.circle {
+  position: absolute;
+  width: 12vw;
+  height: 12vw;
+}
+
+#container-01 {
+  background-color: #FF0101;
+  width: 50vw;
+  height: 50vh;
+  top: 0;
+  left: 0;
+}
+
+#container-02 {
+  background-color: #008001;
+  width: 50vw;
+  height: 50vh;
+  top: 0;
+  right: 0;
+}
+
+#container-03 {
+  background-color: #FFA801;
+  width: 50vw;
+  height: 50vh;
+  bottom: 0;
+  left: 0;
+}
+
+#container-04 {
+  background-color: #FF1494;
+  width: 50vw;
+  height: 50vh;
+  bottom: 0;
+  right: 0;
+}
+
+#middle-box {
+  background-color: #fff;
+  width: 20vw;
+  height: 20vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#middle-circle {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  position: relative;
+}
+
+#mid-circle {
+  background-color: #fff;
+  width: 16vw;
+  height: 16vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  position: relative;
+
+}
+
+#mid-box {
+  background-color: red;
+  width: 40%;
+  height: 40%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#top-left {
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 100%;
+}
+
+#top-right {
+  background-color: #fff;
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 100%;
+}
+
+#bottom-left {
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 100%;
+}
+
+#bottom-right {
+  background-color: #fff;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 100%;
+}
+
+#top-left-mid {
+  background-color: #fff;
+  width: 8vw;
+  height: 8vw;
+  top: 0;
+  left: 50%;
+  transform: translate(-99%, 0%);
+  border-bottom-left-radius: 100%;
+}
+
+#top-right-mid {
+  background-color: #fff;
+  width: 8vw;
+  height: 8vw;
+  top: 0;
+  left: 50%;
+  border-bottom-right-radius: 100%;
+}
+
+#bottom-right-mid {
+  background-color: #fff;
+  width: 8vw;
+  height: 8vw;
+  bottom: 0;
+  left: 50%;
+  border-top-right-radius: 100%;
+}
+
+#bottom-left-mid {
+  background-color: #fff;
+  width: 8vw;
+  height: 8vw;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-99%, 0%);
+  border-top-left-radius: 100%;
+}
